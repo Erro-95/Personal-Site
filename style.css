@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.top-container {
+    background-color: #e0ebe8;
+    position: relative;
+    padding: 0;
+}
+
+.inner-container {
+    position: relative;
+    padding: 100px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.cloud1 {
+    position: relative;
+    bottom: 50px;
+    left: 30%;
+}
+
+.cloud2 {
+    position: relative;
+    left: 300px;
+    width: 5%;
+
+}
+
+.cloud3 {
+    position: relative;
+    right: 400px;
+    bottom: 50px;
+    width: 200px;
+}
+
+.mountain {
+    width: 90%;
+}
+
+hr {
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 5px;
+    width: 20%;
+}
