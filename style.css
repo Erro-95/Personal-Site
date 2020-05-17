@@ -80,3 +80,8 @@ hr {
 .footer-table {
     margin: 0 auto 0 auto;
 }
+
+.responsive-container {
+    margin: 0 20%;
+    padding: 0 5%;
+}
