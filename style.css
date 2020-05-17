@@ -58,8 +58,10 @@ h3 {}
 
 .portrait {
     margin: 100px 0 0;
-    width: 200px;
-    ;
+}
+
+.body-imgs {
+    width: 250px;
 }
 
 hr {
@@ -75,6 +77,6 @@ hr {
     font-size: 1rem;
 }
 
-table {
+.footer-table {
     margin: 0 auto 0 auto;
 }
