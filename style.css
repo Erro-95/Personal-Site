@@ -1,87 +1,118 @@
 body {
-    text-align: center;
-    margin: 0;
-    font-size: 100%;
+	text-align: center;
+	margin: 0;
+	font-size: 100%;
 }
 
 .top-container {
-    background-color: #e0ebe8;
-    position: relative;
-    padding: 0;
+	background-color: #e0ebe8;
+	position: relative;
+	padding: 0;
 }
 
 .inner-container {
-    position: relative;
-    padding: 200px 0 0;
+	position: relative;
+	padding: 200px 0 0;
 }
 
 .front-header {
-    margin: 0;
-    font-family: 'Great Vibes', cursive;
-    font-size: 70px;
-    color: #708160;
+	margin: 0;
+	font-family: 'Great Vibes', cursive;
+	font-size: 70px;
+	color: #2b580c;
 }
 
-h3 {}
+h2 {
+	color: #387013;
+}
+
+h3 {
+	color: #639a67;
+}
 
 .front-paragraph {
-    color: #85977e;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px
+	color: #639a67;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
 }
 
 .positioning {
-    position: absolute;
+	position: absolute;
 }
 
 .cloud1 {
-    right: 10%;
-    top: 100px;
-    width: 12%;
+	right: 10%;
+	top: 100px;
+	width: 12%;
 }
 
 .cloud2 {
-    right: 20%;
-    width: 5%;
-
+	right: 20%;
+	width: 5%;
 }
 
 .cloud3 {
-    left: 20%;
-    top: 40%;
-    width: 10%;
+	left: 20%;
+	top: 40%;
+	width: 10%;
 }
 
 .mountain {
-    width: 100%;
-}
-
-.portrait {
-    margin: 100px 0 0;
+	width: 100%;
 }
 
 .body-imgs {
-    width: 250px;
+	width: 250px;
 }
 
 hr {
-    width: 50%;
-    margin: 40px auto;
+	width: 50%;
+	margin: 40px auto;
 }
 
 hr.style-one {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .footer-table {
-    margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto;
+	font-size: large;
 }
 
 .responsive-container {
-    margin: auto;
-    padding: 0 5%;
-    max-width: 570px;
-    font-size: 1rem;
+	margin: auto;
+	padding: 0 5%;
+	max-width: 570px;
+	font-size: 1rem;
+}
+
+.bottom-container {
+	background-color: #e0ebe8;
+	padding: 2% 0 1%;
+}
+
+.copyright {
+	font-size: 15px;
+}
+
+.attribution {
+	font-size: 10px;
+}
+
+.social-media {
+	width: 50px;
+}
+
+.middle-container {
+	padding: 50px 0 50px;
+}
+
+input {
+	margin-top: 10px;
+	width: 20rem;
+	height: 3em;
+	border-radius: 5px;
+	background-color: #a6d1a9;
 }
