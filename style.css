@@ -149,3 +149,46 @@ input {
 	margin-left: 30%;
 	text-decoration: underline;
 }
+
+@media (max-width: 889px) {
+	.skill-row {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.device-img {
+		float: unset;
+		text-align: center;
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.imac-img {
+		float: unset;
+		text-align: center;
+	}
+
+	.right {
+		text-align: center;
+		text-decoration: underline;
+		margin: 0;
+	}
+
+	.left {
+		text-align: center;
+		text-decoration: underline;
+		margin: 0;
+	}
+
+	.skill-row {
+		width: unset;
+		text-align: center;
+		padding: 0 5%;
+	}
+}
+
+@media (max-width: 333px) {
+	.input {
+		width: 90%;
+	}
+}
